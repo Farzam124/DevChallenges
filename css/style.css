@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins","Lato",sans-serif;
+}
+.sidenav{
+    left: 0%;
+    top: 0%;
+    width: 220px;
+    position: fixed;
+    background-color: #2a2b2f;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;   
+    border-right: 1px solid #454f59;
+}
+.logo-image{
+    width: 150px;
+    height: 70px;
+}
+.logo-image-main{
+    width: 185px;
+    height: 70px;
+    padding-left: 36px;
+}
+.same-icon{
+    width: 20px;
+}
+
+.li-home{
+    display: flex;
+    align-items: center;
+    border-left: 5px solid red;
+    padding: 10px;
+    padding-left: 30px;    
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px 10px 36px;
+    font-size: 14px;
+    font-weight: bold;
+}
+li:hover{
+    background-color: slategray;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.top{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #2f3237;
+
+}
+.git-hub{
+    width: 11px;
+    margin-right: 7px;
+}
+button{
+    border:1px solid white;
+    background-color: #2f3237;
+    color: white;
+    align-items: center;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    border-color: rgb(148, 166, 184);
+}
+.setting-image{
+    cursor: pointer;
+}
+.same-image{
+    width: 435px;   
+}
+.same-image-two{
+    width: 390px;
+    margin-bottom: 20px;
+}
+.middle-section{
+    background-color: #2f3237;
+    padding-bottom: 10px;
+    margin-left: 220px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+}
+.section-one{
+    display: flex;
+
+}
+.box{
+    border: 1px solid #454f59;
+    padding:20px 0 20px 20px;
+    margin: 10px;
+    width: 47%;
+    border-radius: 5px;
+   
+}
+.boxtwo{
+    border: 1px solid #454f59;
+    padding:20px 0 20px 20px;
+    margin: 10px;
+    width: 47%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boxtwo:hover{
+    border-color: rgb(197, 212, 228);
+}
+.boxt{
+    border: 1px solid #454f59;
+    padding:20px 0 20px 20px;
+    margin: 10px;
+    width: 47%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boxt:hover{
+    border-color: rgb(197, 212, 228);
+}
+.heading{
+    color: #e5eaf0;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+p{
+    font-size: 15px;
+    color: #adb7c2;
+    width: 89%;
+    line-height: 22px;
+    
+}
+h2{
+    font-size: 20px;
+    width: 96%;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #e5eaf0;
+} 
+.section-two{
+   display: flex;
+    
+}
+.section-three{
+    display: flex;
+}
+.box-two{
+    display: flex;
+    border: 1px solid #454f59;
+    padding:10px 0 10px 10px;
+    margin: 10px;
+    width: 431px;
+    border-radius: 5px;
+}
+.box-two:hover{
+    border-color: rgb(197, 212, 228);
+}
+.box-three{
+    margin-left: 20px;
+}
+.box-three p{
+    width: 100%;
+    margin-top: 5px;
+}
+h3{
+    color:white;
+    font-size: 15px;
+}
+.td{
+    text-decoration: none;
+}
+.discord-image{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7289da;
+}
+.youtube-image{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+}
+.twitter-image{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #38bdf8;
+}
+footer{
+    margin-left: 220px;
+    background-color:#2f3237 ;
+    border-top: 1px solid #454f59;
+    padding: 10px;
+    display: flex;
+    
+}
+.footer-one{
+    padding: 10px;
+    width: 468px;
+}
+.footer-one p{
+    line-height: 28px;
+    
+}
+.footer-one h5{
+    color: #adb7c2;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.footer-two{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.footer-three{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 0 100px;
+}
+.grey-link{
+    text-decoration: none;
+    color: #adb7c2;
+    margin-left: 10px;
+}
+.grey-link-two{
+    text-decoration: none;
+    color: #adb7c2;
+    font-size: 15px;
+    margin: 10px;
+}
+.grey-link-two:hover{
+    color: #2f80ed;
+}
+.blue-button{
+    text-decoration: none;
+    background-color: #2f80ed;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    
+}
+.blue-button:hover{
+    border:1px solid white;
+}
